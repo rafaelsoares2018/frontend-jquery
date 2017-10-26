@@ -3,8 +3,45 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Primeiro jQuery</title>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	
+	<script type="text/javascript">
+		/*Para usar a biblioteca de JQuery, é necessário usar um caracter especial para fazer a chamada:($) ou JQuery
+		# = ID
+		. = Classe*/
+		$(document).ready(function(){
+			$('#principal').append('<p>Texto Novo</p>');
+			$('#primeiro').click(function(){
+				$('div').append('<h2>Estou Aqui!</h2>');
+
+			});
+		});
+	</script>	
 </head>
 <body>
+
+<header>
+	<h1>Página com JQuery</h1>
+</header>
+
+<main>
+	
+	<section id="principal">
+		<div>
+			<button id="primeiro">primeiro</button><br>
+
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quod excepturi obcaecati consequuntur. At quia, autem asperiores minus doloremque beatae laborum voluptas libero rerum aut rem aliquid amet quae molestiae!</div>
+			<div>Quia ducimus voluptatum aut sapiente unde, non rem culpa. Sint nobis repellendus esse debitis similique quam, maiores molestias accusantium magnam cupiditate ratione beatae quidem perspiciatis rerum earum, eius fugiat asperiores!</div>
+			<div>Qui expedita ab ullam laudantium asperiores, minus maiores omnis, eius illo consectetur distinctio laborum. Cumque repellat veniam, quaerat modi, iste neque, et dolores impedit quibusdam sint inventore voluptatibus optio! Maiores.</div>
+		</div>
+		<div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse optio ipsum aperiam architecto eveniet qui. Eligendi autem a, modi nam cupiditate. Doloribus natus inventore, ipsum culpa similique eveniet tempora repellat.</div>
+			<div>Tempora enim repudiandae, vero incidunt sunt, aperiam eum dolorem. Distinctio iusto repudiandae sunt facilis mollitia tempore a illum perferendis deserunt suscipit exercitationem labore, quam reiciendis. Eveniet enim ea minus, iure.</div>
+			<div>Nobis ipsum, blanditiis corporis! Repellendus animi saepe in, voluptatibus magnam placeat cum alias asperiores modi ullam velit itaque iusto dicta vitae quia praesentium blanditiis, perferendis excepturi maiores porro, libero. Sed.</div>
+		</div>
+	</section>
+
+</main>
 	
 </body>
 </html>
