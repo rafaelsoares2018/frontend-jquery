@@ -1,0 +1,10 @@
+*{
+	margin:0px;			/* retirando a margem da pagina externa e interna*/
+	padding:0px; 
+}
+header{
+	padding:5% 0px;
+	background-image:url("https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg");
+	background-size: 100%;
+	background-position: 0px -200px;
+}
